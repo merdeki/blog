@@ -1,18 +1,85 @@
+body {
+  font-family: "EB Garamond", "Garamond", serif;
+  background: #fdfbf6;
+  color: #111;
+  margin: 0;
+  line-height: 1.65;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+}
+
+.site-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.site-header h1 {
+  font-size: 2.2rem;
+  font-variant: small-caps;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+nav a {
+  margin: 0 0.5rem;
+  color: #003366;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Home page post summaries */
+.post-summary {
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.post-summary h2 {
+  font-variant: small-caps;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.post-summary .post-date {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.75rem;
+}
+
+.read-more {
+  font-weight: 500;
+  color: #003366;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Post page layout */
 .post-page {
-  max-width: 720px;      /* main text column width */
-  margin: 0 auto;        /* center the page */
-  padding: 2rem 4rem;    /* extra side space for footnotes */
-  column-count: 1;
-  column-gap: 2rem;      /* gap between text and margin */
-  background: #fff;
-  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 4rem; /* side margins for footnotes */
   position: relative;
-  font-family: "Garamond", "Georgia", serif;
-  font-size: 1.05rem;
   text-align: justify;
 }
 
-/* Drop cap for the first paragraph */
+/* Drop cap for first paragraph */
 .post-page p:first-of-type::first-letter {
   float: left;
   font-size: 3rem;
@@ -20,26 +87,6 @@
   margin-right: 0.1em;
   font-weight: bold;
   color: #222;
-}
-
-/* Footnotes in the right margin */
-.footnotes {
-  position: absolute;
-  top: 2rem;
-  right: -180px; /* margin area */
-  width: 160px;
-  font-size: 0.8rem;
-  line-height: 1.3;
-  text-align: left;
-}
-
-.footnotes ol {
-  padding-left: 0;
-  margin: 0;
-}
-
-.footnotes li {
-  margin-bottom: 0.5rem;
 }
 
 /* Headings */
@@ -62,9 +109,40 @@ blockquote {
   color: #444;
 }
 
-/* Horizontal rule for section separation */
+/* Footnotes in right margin */
+.footnotes {
+  position: absolute;
+  top: 2rem;
+  right: -180px;
+  width: 160px;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.footnotes ol {
+  padding-left: 0;
+  margin: 0;
+}
+
+.footnotes li {
+  margin-bottom: 0.5rem;
+}
+
+sup a {
+  text-decoration: none;
+  color: #002b5c;
+}
+
 hr {
   border: none;
   border-top: 1px solid #aaa;
   margin: 2.5rem 0;
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  padding-bottom: 2rem;
 }
