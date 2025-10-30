@@ -1,0 +1,119 @@
+---
+---
+
+@import "minima";
+
+body {
+  font-family: "ETBembo", "Palatino Linotype", "Georgia", serif;
+  background-color: #faf9f7;
+  color: #111;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+  background-color: #fff;
+}
+
+.site-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.site-header h1 {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  color: #555;
+  font-style: italic;
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+
+nav a {
+  margin: 0 0.5rem;
+  color: #002b5c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.content h1, .content h2, .content h3 {
+  font-family: "ETBembo", "Palatino Linotype", "Georgia", serif;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.content p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+a {
+  color: #003366;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2.5rem 0;
+}
+
+/* Footnotes */
+.footnotes {
+  border-top: 1px solid #ddd;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.footnotes ol {
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+}
+
+.footnotes li {
+  margin-bottom: 0.6rem;
+}
+
+sup a {
+  text-decoration: none;
+  color: #002b5c;
+}
+
+/* Scholarly feel */
+blockquote {
+  margin: 1.5rem 1.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid #ccc;
+  font-style: italic;
+  color: #444;
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  padding-bottom: 2rem;
+}
+
+code, pre {
+  background-color: #f6f6f6;
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
+}
