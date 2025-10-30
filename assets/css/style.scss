@@ -41,9 +41,9 @@ nav a:hover {
 
 /* Home page post summaries */
 .post-summary {
-  border-bottom: 1px solid #aaa;
-  padding-bottom: 2rem;
-  margin-bottom: 2.5rem;
+  border-bottom: 2px solid #aaa;
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
 }
 .post-summary h2 {
   font-variant: small-caps;
@@ -54,9 +54,11 @@ nav a:hover {
 .post-summary .post-date {
   font-size: 0.85rem;
   color: #666;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
 }
 .read-more {
+  margin-top: 0.5rem;
+  display: inline-block;
   font-weight: 500;
   color: #003366;
   text-decoration: none;
@@ -77,6 +79,9 @@ nav a:hover {
   margin-right: 0.1em;
   font-weight: bold;
   color: #222;
+}
+.post-page p {
+  margin-bottom: 1.2rem;
 }
 .post-page h1, .post-page h2, .post-page h3 {
   font-variant: small-caps;
@@ -110,7 +115,7 @@ blockquote {
 hr {
   border: none;
   border-top: 1px solid #aaa;
-  margin: 2.5rem 0;
+  margin: 3rem 0;
 }
 
 /* Footer */
