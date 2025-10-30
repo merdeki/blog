@@ -1,9 +1,9 @@
 body {
-  font-family: "Georgia", serif;
-  background: #faf9f7;
+  font-family: "Garamond", "Georgia", serif;
+  background: #fdfbf6;
   color: #111;
   margin: 0;
-  line-height: 1.75;
+  line-height: 1.65;
 }
 
 .container {
@@ -11,23 +11,25 @@ body {
   margin: 0 auto;
   padding: 2rem 1.5rem;
   background: #fff;
+  column-count: 1; /* single column for readability on screen */
+  column-gap: 3rem;
 }
 
 .site-header {
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 .site-header h1 {
-  font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-variant: small-caps;
   margin-bottom: 0.25rem;
 }
 
 .subtitle {
   font-style: italic;
   color: #555;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 nav a {
@@ -43,16 +45,16 @@ nav a:hover {
 
 /* Post summaries on home page */
 .post-summary {
-  border: 1px solid #ddd;
-  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 1.5rem;
   margin-bottom: 2rem;
-  border-radius: 6px;
-  background: #fefefe;
 }
 
 .post-summary h2 {
-  margin-top: 0;
+  font-variant: small-caps;
   font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 .post-summary .post-date {
@@ -76,34 +78,48 @@ nav a:hover {
   padding: 2rem 1.5rem;
   margin-bottom: 3rem;
   background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 6px;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
 }
 
-.post-content h1, 
-.post-content h2, 
+.post-content p:first-of-type::first-letter {
+  float: left;
+  font-size: 3rem;
+  line-height: 1;
+  margin-right: 0.1em;
+  font-weight: bold;
+  color: #222;
+}
+
+.post-content h1,
+.post-content h2,
 .post-content h3 {
+  font-variant: small-caps;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 0.25rem;
 }
 
 .post-content p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
+  text-align: justify;
 }
 
 blockquote {
-  margin: 1.5rem 1.5rem;
+  margin: 1.5rem 1rem;
   padding-left: 1rem;
   border-left: 3px solid #ccc;
   font-style: italic;
   color: #444;
 }
 
+/* Footnotes */
 .footnotes {
   border-top: 1px solid #ddd;
   margin-top: 2rem;
   padding-top: 1rem;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .footnotes ol {
@@ -122,19 +138,6 @@ sup a {
 
 hr {
   border: none;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #aaa;
   margin: 2.5rem 0;
-}
-
-.site-footer {
-  text-align: center;
-  font-size: 0.9rem;
-  color: #666;
-  padding-bottom: 2rem;
-}
-
-code, pre {
-  background-color: #f6f6f6;
-  border-radius: 3px;
-  padding: 0.2em 0.4em;
 }
