@@ -41,37 +41,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Home page post summaries */
-.post-summary {
-  border-bottom: 2px solid #aaa;
-  padding: 1.5rem 0;
-  margin-bottom: 2.5rem;
-}
-.post-summary h2 {
-  font-variant: small-caps;
-  font-size: 1.4rem;
-  margin: 0 0 0.5rem 0;
-}
-.post-summary .post-abstract {
-  font-style: italic;
-  color: #333;
-  margin-bottom: 0.5rem;
-}
-.post-summary .post-date {
-  font-size: 0.85rem;
-  color: #666;
-  margin-bottom: 0.5rem;
-}
-.read-more {
-  font-weight: 500;
-  color: #003366;
-  text-decoration: none;
-}
-.read-more:hover {
-  text-decoration: underline;
-}
-
-/* Post page content */
+/* Post page & home page content */
 .post-page {
   padding: 2rem 3rem;
   text-align: justify;
