@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 720px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 2rem 2rem;
 }
@@ -18,12 +18,14 @@ body {
   margin-bottom: 3rem;
 }
 .site-header h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-variant: small-caps;
+  font-weight: 600;
   margin-bottom: 0.25rem;
 }
 .subtitle {
   font-style: italic;
+  font-size: 1rem;
   color: #555;
   margin-bottom: 1.5rem;
 }
@@ -43,22 +45,24 @@ nav a:hover {
 .post-summary {
   border-bottom: 2px solid #aaa;
   padding: 1.5rem 0;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 .post-summary h2 {
   font-variant: small-caps;
-  font-size: 1.5rem;
-  margin-top: 0;
+  font-size: 1.4rem;
+  margin: 0 0 0.5rem 0;
+}
+.post-summary .post-abstract {
+  font-style: italic;
+  color: #333;
   margin-bottom: 0.5rem;
 }
 .post-summary .post-date {
   font-size: 0.85rem;
   color: #666;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .read-more {
-  margin-top: 0.5rem;
-  display: inline-block;
   font-weight: 500;
   color: #003366;
   text-decoration: none;
@@ -77,17 +81,17 @@ nav a:hover {
   font-size: 3rem;
   line-height: 1;
   margin-right: 0.1em;
-  font-weight: bold;
+  font-weight: 400;
   color: #222;
 }
 .post-page p {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.3rem;
 }
 .post-page h1, .post-page h2, .post-page h3 {
   font-variant: small-caps;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px dotted #aaa;
   padding-bottom: 0.25rem;
 }
 blockquote {
@@ -98,30 +102,8 @@ blockquote {
   color: #444;
 }
 
-/* Footnotes below post */
+/* Footnotes */
 .footnotes {
-  margin-top: 2rem;
+  margin-top: 3rem;
   padding-top: 1rem;
   border-top: 1px solid #ddd;
-  font-size: 0.85rem;
-}
-.footnotes ol {
-  margin-left: 1rem;
-}
-.footnotes li {
-  margin-bottom: 0.5rem;
-}
-
-hr {
-  border: none;
-  border-top: 1px solid #aaa;
-  margin: 3rem 0;
-}
-
-/* Footer */
-.site-footer {
-  text-align: center;
-  font-size: 0.9rem;
-  color: #666;
-  padding-bottom: 2rem;
-}
