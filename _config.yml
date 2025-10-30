@@ -1,7 +1,6 @@
-title: Blog
+title: My Blog
 author: 
-description: 
-theme: minima
+description: A journal 
 markdown: kramdown
 
 kramdown:
@@ -9,9 +8,6 @@ kramdown:
   footnote_nr: 1
   hard_wrap: false
   syntax_highlighter: rouge
-
-sass:
-  style: compressed
 
 plugins:
   - jekyll-sitemap
