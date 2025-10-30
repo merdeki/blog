@@ -20,14 +20,18 @@
 
   <main class="content container">
     {% for post in site.posts %}
-      <section class="post-summary">
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <article class="post-page">
+        <div class="post-ornament">✦ ✦ ✦</div>
+        <h1>{{ post.title }}</h1>
+
         {% if post.excerpt %}
           <p class="post-abstract">{{ post.excerpt | markdownify }}</p>
         {% endif %}
-        <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
-        <p><a href="{{ post.url | relative_url }}" class="read-more">Read more →</a></p>
-      </section>
+
+        {{ post.content | markdownify }}
+
+        <hr class="section-break">
+      </article>
     {% endfor %}
   </main>
 
