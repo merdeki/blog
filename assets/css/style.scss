@@ -12,7 +12,6 @@ body {
   padding: 2rem 2rem;
 }
 
-/* Header */
 .site-header {
   text-align: center;
   margin-bottom: 3rem;
@@ -30,7 +29,6 @@ body {
   margin-bottom: 1.5rem;
 }
 
-/* Navigation */
 nav a {
   margin: 0 0.5rem;
   color: #003366;
@@ -41,7 +39,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Post page & home page content */
 .post-page {
   padding: 2rem 3rem;
   text-align: justify;
@@ -81,7 +78,6 @@ blockquote {
   background: #faf8f3;
 }
 
-/* Footnotes */
 .footnotes {
   font-size: 0.8rem;
   color: #555;
@@ -97,7 +93,6 @@ blockquote {
   font-style: italic;
 }
 
-/* Ornamental section breaks */
 hr.section-break {
   border: none;
   border-top: 1px solid #aaa;
@@ -117,14 +112,12 @@ hr.section-break::after {
   padding: 0 0.5rem;
 }
 
-/* General horizontal rules */
 hr {
   border: none;
   border-top: 1px solid #bbb;
   margin: 3rem 0;
 }
 
-/* Footer */
 .site-footer {
   text-align: center;
   font-size: 0.9rem;
