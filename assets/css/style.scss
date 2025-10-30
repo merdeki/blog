@@ -3,31 +3,31 @@ body {
   background: #faf9f7;
   color: #111;
   margin: 0;
-  line-height: 1.7;
+  line-height: 1.75;
 }
 
 .container {
   max-width: 720px;
   margin: 0 auto;
-  padding: 2rem 1.25rem;
-  background-color: #fff;
+  padding: 2rem 1.5rem;
+  background: #fff;
 }
 
 .site-header {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .site-header h1 {
   font-weight: 600;
+  font-size: 2rem;
   margin-bottom: 0.25rem;
-  font-size: 1.8rem;
 }
 
 .subtitle {
   font-style: italic;
   color: #555;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 nav a {
@@ -41,15 +41,54 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.content h1, .content h2, .content h3 {
-  font-weight: 600;
-  margin-top: 2rem;
+/* Post summaries on home page */
+.post-summary {
+  border: 1px solid #ddd;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 6px;
+  background: #fefefe;
+}
+
+.post-summary h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.post-summary .post-date {
+  font-size: 0.85rem;
+  color: #666;
   margin-bottom: 0.75rem;
 }
 
-.content p {
-  text-align: justify;
-  hyphens: auto;
+.read-more {
+  font-weight: 500;
+  color: #003366;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Individual post page */
+.post-content {
+  padding: 2rem 1.5rem;
+  margin-bottom: 3rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.post-content h1, 
+.post-content h2, 
+.post-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content p {
+  margin-bottom: 1rem;
 }
 
 blockquote {
