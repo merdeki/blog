@@ -20,13 +20,12 @@
 
   <main class="content container">
     {% for post in site.posts %}
-      <article>
+      <section class="post-summary">
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p><small>{{ post.date | date: "%B %d, %Y" }}</small></p>
+        <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
         {{ post.excerpt | markdownify }}
-        <p><a href="{{ post.url | relative_url }}">Read more →</a></p>
-      </article>
-      <hr>
+        <p><a href="{{ post.url | relative_url }}" class="read-more">Read more →</a></p>
+      </section>
     {% endfor %}
   </main>
 
