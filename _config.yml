@@ -1,0 +1,20 @@
+title: Blog
+author: 
+description: 
+theme: minima
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  footnote_nr: 1
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
+
+url: "https://merdeki.github.io"
+baseurl: "/blog" 
